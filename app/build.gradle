@@ -44,12 +44,6 @@ android {
     productFlavors {
     }
 
-    packagingOptions {
-        exclude 'META-INF/androidx.legacy_legacy-support-core-utils.version'
-        exclude 'META-INF/androidx.vectordrawable_vectordrawable.version'
-        exclude 'META-INF/androidx.loader_loader.version'
-
-    }
 }
 
 dependencies {
