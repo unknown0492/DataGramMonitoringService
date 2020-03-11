@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
             finish();
         }
 
-        finish();
+        //finish();
 
     }
 
