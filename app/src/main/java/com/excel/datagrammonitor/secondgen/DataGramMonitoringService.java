@@ -83,7 +83,7 @@ public class DataGramMonitoringService extends Service {
 
         cal = Calendar.getInstance();
         long currentTime = System.currentTimeMillis();
-        long afterFiveMinutes = currentTime + 30000;//FIVE_MINUTES_MILLIS;
+        long afterFiveMinutes = currentTime + FIVE_MINUTES_MILLIS;
         cal.setTimeInMillis( afterFiveMinutes );
 
         am1.set( AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), pi1 );
